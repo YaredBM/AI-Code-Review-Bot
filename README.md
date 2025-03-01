@@ -14,19 +14,13 @@ An AI-powered GitHub bot that automatically reviews pull requests, detects issue
 
 📌 Prerequisites
 
-Before you start, ensure you have the following:
-
-GitHub App Credentials (App ID, Private Key, Webhook Secret)
-
-GitHub Personal Access Token (for API interactions)
-
-OpenAI API Key (for AI-based reviews)
-
-Python 3.8+ installed
-
-pip (Python package manager)
-
-Flask for the webhook server
+-Before you start, ensure you have the following:
+-GitHub App Credentials (App ID, Private Key, Webhook Secret)
+-GitHub Personal Access Token (for API interactions)
+-OpenAI API Key (for AI-based reviews)
+-Python 3.8+ installed
+-pip (Python package manager)
+-Flask for the webhook server
 
 🛠 Installation & Setup
 
@@ -60,17 +54,12 @@ Create a GitHub App:
 
 Go to GitHub Developer Settings
 
-Click New GitHub App
-
-Set the webhook URL to http://yourserver.com/webhook
-
-Grant Read & Write permissions for pull requests
-
-Generate and save the private key
-
-Install the GitHub App on your repositories
-
-Configure Webhook Secret if needed
+-Click New GitHub App
+-Set the webhook URL to http://yourserver.com/webhook
+-Grant Read & Write permissions for pull requests
+-Generate and save the private key
+-Install the GitHub App on your repositories
+-Configure Webhook Secret if needed
 
 🚀 Deployment
 
