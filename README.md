@@ -25,27 +25,27 @@ An AI-powered GitHub bot that automatically reviews pull requests, detects issue
 🛠 Installation & Setup
 
 1️⃣ Clone the Repository
-
+```
 $ git clone https://github.com/yourusername/ai-code-review-bot.git
 $ cd ai-code-review-bot
-
+```
 2️⃣ Install Dependencies
-
+```sh
 $ pip install -r requirements.txt
-
+```
 3️⃣ Set Environment Variables
 
 Create a .env file and add the following credentials:
-
+  ```sh
 GITHUB_APP_ID=your_github_app_id
 GITHUB_PRIVATE_KEY=your_github_private_key
 GITHUB_TOKEN=your_github_personal_access_token
 OPENAI_API_KEY=your_openai_api_key
-
+```
 4️⃣ Run the Webhook Server
-
+```sh
 $ python app.py
-
+```
 This starts the server that listens for GitHub webhook events.
 
 🔗 GitHub App Setup
@@ -66,13 +66,13 @@ Go to GitHub Developer Settings
 🐳 Docker Deployment
 
 Build Docker Image
-
+```sh
 $ docker build -t ai-code-review-bot .
-
+```
 Run the Container
-
+```sh
 $ docker run -p 5000:5000 --env-file .env ai-code-review-bot
-
+```
 ☁️ Deploy on Azure
 
 Create an Azure App Service or Azure Functions
